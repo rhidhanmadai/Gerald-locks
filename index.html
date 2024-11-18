@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Gerald Locs Hair Salon</title>
+		<!--fonts-->
+		<script src="https://kit.fontawesome.com/d706b47c33.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header id="home">
+			<nav>
+				<ul>
+					<li class="first"><a href="#home">Gerald Locs.</a></li>
+					<li class="main"><a href="#home">HOME</a></li>
+					<li class="main"><a href="#services">SERVICES</a></li>
+					<li class="main"><a href="#about">ABOUT</a></li>
+					<li class="main"><a href="#stylists">STYLISTS</a></li>
+					
+					<li class="main"><a href="#lookbook">LOOKBOOK</a></li>
+					<li class="last"><a href="#contact">- CONTACT</a></li>
+					<li id="pg-content" class="menu" style="cursor: pointer" onclick="openSM()">&#9776;</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="mySidemenu" class="sidemenu">
+			<a href="javascript:void(0)" class="close" onclick="closeSM()">&times;</a>
+			<div class="sm-wrapper">
+				<a href="#home" onclick="closeSM()">HOME</a>
+				<a href="#services" onclick="closeSM()">SERVICES</a>
+				<a href="#about" onclick="closeSM()">ABOUT</a>
+				<a href="#stylists" onclick="closeSM()">STYLISTS</a>
+				<a href="#offers" onclick="closeSM()">OFFERS</a>
+				<a href="#lookbook" onclick="closeSM()">LOOKBOOK</a>
+				<a href="#contact" onclick="closeSM()">CONTACT</a>
+			</div>
+		</div>
+		<main>
+			<h1>BOLD, BRAVE, AND BEAUTIFUL</h1>
+			<p>CHANGE IT UP WITH A NEW LOOK THAT'S AS FEARLESS AS YOU</p>
+			<a href="#services">- OUR SERVICES</a>
+			<section>
+				<h4>YOUR FIRST VISIT?</h4>
+				<h3>10% OFF FOR THE FIRST CLASSIC HAIR LOCKS!</h3>
+				<a href="mailto:">- BOOK ONLINE</a>
+			</section>
+		</main>
+		<section class="quality" id="services">
+			<section class="one">
+				<img src="Assets/quality-icon-01.png">
+				<h3>EXPERT BEAUTICIANS</h3>
+				<p>Our beauticians are passion driven and have all completed 
+					rigorous cosmetology programs to make sure that they have 
+					the skills to make you look and feel your best.
+				</p>
+			</section>
+			<section class="two">
+				<img src="Assets/quality-icon-02.png">
+				<h3>QUALITY SERVICES</h3>
+				<p>We specialize in a wide range of dreadlock services, including installation, maintenance, styling, coloring, and treatments. Whether you're looking to start your loc journey, refresh your existing look, or enhance your style with vibrant colors, we're here to help you achieve the perfect set of dreads. Visit us to transform your hair and embrace a new look with confidence.
+				</p>
+			</section>
+			<section class="three">
+				<img src="Assets/quality-icon-03.png">
+				<h3>BEAUTY PRODUCTS</h3>
+				<p>We utilize the highest salon quality products in all of our styles 
+					and treatments. Love something we used? We keep plenty of items in stock
+					that are available for purchase.
+				</p>
+			</section>
+		</section>
+		<section class="video" id="about">
+			<section class ="both">
+				<section class="left">
+					<h2>BRING YOUR VISION TO LIFE</h2>
+					<p>We celebrate women in their real, most raw, authentic brilliance, who believe 
+						in themselves, and are ready to step into a look they love. We employ hair 
+						products with some of the most natural and rich ingredients because we believe 
+						you should never expect any less.
+					</p>
+					<a href="#lookbook">- SEE LOOKBOOK</a>
+				</section>
+				<!-- <section class="right">
+					<video controls preload="auto" poster="Assets/poster.png"
+    					src="Assets/pexels-rodnae-productions-7754434.mp4">
+					</video>
+				</section> -->
+			</section>
+		</section>
+		<section class="stylers" id="stylists">
+			<h2>OUR STYLISTS</h2>
+			<h4>_</h4>
+				<section class="profiles">
+					<section class="individuals">
+						<img src="Assets/gabriel-silverio-u3WmDyKGsrY-unsplash.jpg">
+						<div class="title">
+							<h3>GERALD</h3>
+							<span>-STYLIST</span>
+						</div>
+					</section>
+					<section class="individuals">
+						<img src="Assets/prince-akachi-LWkFHEGpleE-unsplash.jpg">
+						<div class="title">
+							<h3>TOMMY</h3>
+							<span>-STYLIST</span>
+						</div>
+					</section>
+					
+				</section>
+		</section>
+		<section class="offer" id="offers">
+			<h4>COLOR DAY OFFER!</h4>
+			<h3>10% OFF ON HAIRCUT, COLOR, AND HIGHLIGHT</h3>
+			<span><a href="mailto:">- BOOK APPOINTMENT</a></span>
+		</section>
+		<section class="lookbook" id="lookbook">
+			<h2>OUR LOOKBOOK</h2>
+			<h4>_</h4>
+			<section class="grid">
+				<img class="two" src="Assets/FB_IMG_17319282167448860.jpg">
+				<img class="two" src="Assets/raphael-lovaski-acJTuAzH9RQ-unsplash.jpg">
+				<img class="three" src="Assets/FB_IMG_17319283906241794.jpg">
+				<img class="three" src="Assets/FB_IMG_17319283577491319.jpg">
+				<img class="three" src="Assets/gustavo-spindula-K2D7muBun1A-unsplash.jpg">
+				<img class="two" src="Assets/FB_IMG_17319283213377814.jpg">
+				<img class="two" src="Assets/FB_IMG_17319282678393454.jpg">
+			</section>
+		</section>
+		<footer id="contact">
+			<ul>
+				<li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+				<li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="mailto:"><i class="fa-regular fa-envelope"></i></a></li>
+			</ul>
+			<h6><a href="https://jessefrenchdev.com" target="_blank">© Gerald locs</a></h6>
+		</footer>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
